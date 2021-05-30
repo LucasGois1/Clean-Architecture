@@ -1,9 +1,7 @@
-import { SignUpController } from './SignUp'
-import { MissingParamError, ServerError, InvalidParamError } from '../errors'
+import { SignUpController } from './signup'
+import { MissingParamError, ServerError, InvalidParamError } from '../../errors'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { EmailValidator } from '../protocols'
-import { AccountModel } from '../../domain/models/account'
-import { AddAccount, AddAccountModel } from '../../domain/usecases/add-account'
+import { AddAccount, AddAccountModel, EmailValidator, AccountModel } from './signup-protocols'
 
 const makeEmailValidator = (): EmailValidator => {
   class EmailValidatorStub implements EmailValidator {
