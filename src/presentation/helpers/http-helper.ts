@@ -1,4 +1,4 @@
-import { ServerError } from '../errors/server-error'
+import { ServerError } from '../errors'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { HttpResponse } from '../protocols/http'
 
