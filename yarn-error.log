@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/lucasgois/Desktop/Clean-Architecture/package.json: Unexpected token } in JSON at position 183
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "Clean-Architecture",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+          "test": "jest",
+          "test:staged": "jest",
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+          "@types/jest": "^26.0.23",
+          "@types/node": "^15.6.1",
+          "@typescript-eslint/eslint-plugin": "^4.25.0",
+          "@typescript-eslint/parser": "^4.25.0",
+          "eslint": "^7.27.0",
+          "eslint-config-standard": "^16.0.3",
+          "eslint-config-standard-with-typescript": "^20.0.0",
+          "eslint-plugin-import": "^2.23.4",
+          "eslint-plugin-node": "^11.1.0",
+          "eslint-plugin-promise": "^5.1.0",
+          "eslint-plugin-react": "^7.24.0",
+          "eslint-plugin-standard": "^4.1.0",
+          "git-commit-msg-linter": "^3.1.0",
+          "husky": "^6.0.0",
+          "jest": "^27.0.3",
+          "lint-staged": "^11.0.0",
+          "ts-jest": "^27.0.1",
+          "ts-node": "^10.0.0",
+          "typescript": "^4.3.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
